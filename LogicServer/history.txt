@@ -1,0 +1,775 @@
+    1  python
+    2  sudo apt-get install python3
+    3  python3
+    4  sudo apt-get install mysql-server
+    5  sudo apt-get update
+    6  sudo apt-get upgrade
+    7  cd Github/
+    8  git clone https://github.com/Lovelykira/DB_try.git
+    9  cd DB_try/
+   10  python3 main.py
+   11  pip install -r ./requirements.txt 
+   12  sudo apt install python-pip
+   13  pip install -r ./requirements.txt 
+   14  sudo apt-get install python3-dev
+   15  sudo apt-get install libmysqlclient-dev
+   16  python3 main.py
+   17  pip freeze
+   18  pip install MySQL-python
+   19  virtualenv -p /usr/bin/python3 .env
+   20  sudo apt install virtualenv
+   21  virtualenv -p /usr/bin/python3 .env
+   22  . .env/bin/activate
+   23  pip install -r ./requirements.txt 
+   24  python3 main.py
+   25  mysql
+   26  mysql --user=kira --password=123 db
+   27  mysql --user=root --password=123 db
+   28  mysql --user=root --password=123 database
+   29  mysql --user=root --password=123
+   30  python3 main.py
+   31  mysql db
+   32  mysql --user=root --password=123 db
+   33  python3 main.py
+   34  cd Github/
+   35  cd DB_try/
+   36  python3 main.py
+   37  . .env/bin/activate
+   38  python3 main.py
+   39  cd PycharmProjects/
+   40  cd ORM/
+   41  virtualenv -p /usr/bin/python3 .env
+   42  . .env/bin/activate
+   43  pip install -r ./requirements.txt 
+   44  sql
+   45  mysql --user=root --password=123 db
+   46  cd PycharmProjects/ORM
+   47  git remote add origin https://github.com/Lovelykira/ORM.git
+   48  git init
+   49  git commit -m "first commit"
+   50  git config --global user.email "Lovelykira@gmail.com"
+   51  git config --global user.name "Lovelykira"
+   52  git remote add origin https://github.com/Lovelykira/ORM.git
+   53  git push -u origin master
+   54  git commit -m "first commit"
+   55  git add *
+   56  git commit -m "first commit"
+   57  git remote add origin https://github.com/Lovelykira/ORM.git
+   58  git push -u origin master
+   59  mysql --user=root --passwoed=123 db
+   60  mysql --user=root --password=123 db
+   61  ls
+   62  cd Github/
+   63  git clone https://github.com/Lovelykira/Battlefield.git
+   64  netstat -tulpn
+   65  cd Github/Battlefield/
+   66  git remote add origin https://github.com/Lovelykira/WSGI_Battlefield.git
+   67  git remote add neworigin https://github.com/Lovelykira/WSGI_Battlefield.git
+   68  git push -u neworigin master
+   69  git add *
+   70  git commit
+   71  git commit -m "second try"
+   72  git push
+   73  git add *
+   74  git commit -m "deleting"
+   75  git push
+   76  git add -u
+   77  git status
+   78  git commit
+   79  git push
+   80  git push --force
+   81  ls
+   82  cd PycharmProjects/
+   83  cd Battlefield_flask/
+   84  virtualenv .env
+   85  . .env/bin/activate
+   86  pip install flask
+   87  mkdir app
+   88  mkdir app/static
+   89  mkdir app/templates
+   90  deactivate 
+   91  sudo apt-get install mate-utils
+   92  . .env/bin/activate
+   93  cd ..
+   94  deactivate 
+   95  cd Battlefield_flask/
+   96  rm -r .env
+   97  ls
+   98  virtualenv .env —python=/usr/bin/python3.5
+   99  . .env/bin/activate
+  100  virtualenv .env --python=/usr/bin/python3.5
+  101  . .env/bin/activate
+  102  pip install flask
+  103  cd PycharmProjects/Battlefield_flask/
+  104  python3 main.py
+  105  . .env/bin/activate
+  106  python3 main.py
+  107  cd PycharmProjects/Battlefield_flask/
+  108  git init
+  109  touch .gitignore
+  110  gedit .gitignore 
+  111  git add *
+  112  git commit -m "first commit"
+  113  git remote add origin https://github.com/Lovelykira/Web_Battlefield.git
+  114  git push -u origin master
+  115  cd PycharmProjects/Battlefield_flask/
+  116  . .env/bin/activate
+  117  pip freeze > requirements.txt
+  118  git add requirements.txt 
+  119  git commit -m "requirements added"
+  120  git push
+  121  git add .gitignore 
+  122  git commit "adding gitignore"
+  123  git push
+  124  git add .gitignore 
+  125  git status
+  126  git commit -m "adding gitignore"
+  127  git push
+  128  cd Github/Battlefield/
+  129  virtualenv -p /usr/bin/python3 .env
+  130  . .env/bin/activate
+  131  deactivate 
+  132  rm -rf .env
+  133  cd ..
+  134  cd PycharmProjects/Battlefield_doc_tests/
+  135  cd app
+  136  ls
+  137  rm -rf .git
+  138  cd ..
+  139  virtualenv -p /usr/bin/python3 .env
+  140  . .env/bin/activate
+  141  pip install sphinx
+  142  cd app
+  143  sphinx-quickstart 
+  144  cd ..
+  145  cd doc
+  146  make html
+  147  cd ..
+  148  sphinx-apidoc -o doc app
+  149  cd doc
+  150  make html
+  151  make clean
+  152  make html
+  153  cd ..
+  154  sphinx-apidoc -o doc app
+  155  sphinx-apidoc -o docs app
+  156  cd docs
+  157  make html
+  158  cd ..
+  159  sphinx-quickstart 
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd .
+  166  cd ..
+  167  ls
+  168  cd PycharmProjects/Battlefield_doc_tests/
+  169  sphinx-apidoc -o docs app
+  170  cd docs
+  171  make html
+  172  make clean
+  173  make html
+  174  make clean
+  175  make html
+  176  make clean
+  177  make html
+  178  cd ..
+  179  sphinx-apidoc -o docs app
+  180  sphinx-quickstart 
+  181  sphinx-apidoc -o docs app
+  182  cd docs
+  183  make html
+  184  make clean
+  185  make html
+  186  cd ..
+  187  sphinx-apidoc -o dpcs app
+  188  make clean
+  189  make html
+  190  cd docs
+  191  make clean
+  192  make html
+  193  cd ..
+  194  ls
+  195  cd ..
+  196  ls
+  197  cd PycharmProjects/Battlefield_doc_tests/
+  198  sphinx-quickstart 
+  199  cd docs
+  200  make html
+  201  cd ..
+  202  sphinx-apidoc -o docs app
+  203  cd docs
+  204  make clean
+  205  make html
+  206  cd ..
+  207  pip install pytest
+  208  pip install pytest-cov
+  209  pip install mock
+  210  python -m unittest tests/test_army.py
+  211  py.test tests/test_army.py
+  212  python -m unittest tests/test_army.py
+  213  py.test tests/test_army
+  214  py.test tests/test_army.py
+  215  py.test tests/
+  216  cd PycharmProjects/Battlefield_doc_tests/
+  217  py.test tests/
+  218  . .env/bin/activate
+  219  py.test tests/
+  220  python -m unittest tests/
+  221  python -m unittest tests/test_army.py 
+  222  py.test tests/
+  223  --cov ./app --cov-report=term-missing
+  224  py.tst tests/ --cov ./app --cov-report=term-missing
+  225  py.test tests/ --cov ./app --cov-report=term-missing
+  226  py.test tests/
+  227  py.test tests/ --cov ./app --cov-report=term-missing
+  228  cd PycharmProjects/Battlefield_doc_tests/
+  229  py.test tests/
+  230  . .env/bin/activate
+  231  py.test tests/
+  232  py.test tests/ -v
+  233  py.test tests/ 
+  234  py.test tests/ --cov ./app --cov-report=term-missing
+  235  py.test tests/
+  236  py.test tests/ -v
+  237  py.test tests/ 
+  238  py.test tests/ --cov ./app --cov-report=term-missing
+  239  py.test tests/ 
+  240  py.test tests/ --cov ./app --cov-report=term-missing
+  241  py.test tests/ 
+  242  py.test tests/ --cov ./app --cov-report=term-missing
+  243  pip freeze > requrements.txt
+  244  deactivate
+  245  git init
+  246  git add *
+  247  got commit -m "initial commit"
+  248  git commit -m "initial commit"
+  249  git remote add origin https://github.com/Lovelykira/Docs_tests_BattleField.git
+  250  git push -u origin master
+  251  cd PycharmProjects/
+  252  ls
+  253  virtualenv -p /usr/bin/python3 .env
+  254  . .env/bin/activate
+  255  pip install django
+  256  django-admin startproject BattleField_Django
+  257  mv .env /BattleField_Django
+  258  python manage.py startapp app
+  259  cd BattleField_Django/
+  260  python manage.py startapp app
+  261  deactivate
+  262  ls
+  263  . .ev/bin/activate
+  264  cd ..
+  265  ls
+  266  cd BattleField_Django/
+  267  ls
+  268  . .env/bin/activate
+  269  python manage.py startapp app
+  270  deactivate
+  271  cd ..
+  272  mkdir BattleField_Django
+  273  cd BattleField_Django/
+  274  virtualenv -p /usr/bin/python3 .env
+  275  . .env/bin/activate
+  276  pip install django
+  277  django-admin.py startproject main
+  278  ls
+  279  python manage.py startapp main
+  280  cd BF
+  281  python manage.py startapp main
+  282  cd ..
+  283  rm -rf BF
+  284  django-admin startproject BF
+  285  cd BF
+  286  python manage.py startapp main
+  287  cd ..
+  288  mv .env/BF
+  289  mv .env BF
+  290  cd
+  291  cd PycharmProjects/
+  292  cd BattleField_Django/
+  293  ls
+  294  ls -l
+  295  python manage.py runserver
+  296  ls
+  297  pip freeze > requirements.txt
+  298  deactivate
+  299  git init
+  300  git add README.md
+  301  dit add *
+  302  git add *
+  303  git status
+  304  git add .gitignore
+  305  git status
+  306  git remote add origin https://github.com/Lovelykira/Django_BattleField.git
+  307  git push -u origin master
+  308  git commit -m "initial commit"
+  309  git push -u origin master
+  310  cd PycharmProjects/
+  311  cd Internet_Shop/
+  312  virtualenv -p /usr/bin/python3 .env
+  313  . .env/bin//activate
+  314  pip  install django
+  315  django-admin startproject Shop
+  316  cd Shop
+  317  python manage.py startapp app
+  318  python manage.py runserver
+  319  cd ..
+  320  python manage.py runserver
+  321  ppython manage.py makemigrations
+  322  python manage.py makemigrations
+  323  python manage.py migrate
+  324  python manage.py makemigrations
+  325  python manage.py migrate
+  326  python manage.py makemigrations
+  327  python manage.py migrate
+  328  python manage.py makemigrations
+  329  python manage.py migrate
+  330  python manage.py shell
+  331  python manage.py makemigrations
+  332  python manage.py migrate
+  333  python manage.py shell
+  334  python3 try.py
+  335  python3 manage.py dumpdata > data_dump.json
+  336  python3 try.py
+  337  python manage.py shell <try.py
+  338  python3 manage.py dumpdata > data_dump.json
+  339  python3 manage.py shell
+  340  pip freeze > requirements.txt
+  341  deactivate
+  342  git init
+  343  git add *
+  344  git status
+  345  git add .gitignore
+  346  git status
+  347  git commit -m "first commit"
+  348  git remote add origin https://github.com/Lovelykira/Phones_Shop.git
+  349  git push -u origin master
+  350  . .env/bin/activate
+  351  python3 manage.py shell
+  352  ls
+  353  cd PycharmProjects/
+  354  ls
+  355  cd Internet_Shop/
+  356  git clone https://github.com/Lovelykira/Phones_Shop.git
+  357  cd PycharmProjects/Phones_Shop/
+  358  virtualenv -p /usr/bin/python3 .env
+  359  . .env/bin/activate
+  360  pip install ./requirements.txt 
+  361  ls
+  362  pip install -r ./requirements.txt 
+  363  python manage.py runserver
+  364  deactivate
+  365  git add *
+  366  git status
+  367  git commit -m 
+  368  git commit -m "work with table Product added"
+  369  git push
+  370  cd PycharmProjects/Phones_Shop/
+  371  . .env/bin/activate
+  372  python manage.py runserver
+  373  ddeactivate
+  374  deactivate
+  375  git add*
+  376  git add *
+  377  git status
+  378  git commit -m "label changes"
+  379  git push
+  380  cd PycharmProjects/Internet_Shop/
+  381  . .env/bin/activate
+  382  python manage.py runserver
+  383  ddeactivate
+  384  deactivate
+  385  git pull https://github.com/Lovelykira/Phones_Shop.git
+  386  . .env/bin/activate
+  387  python manage.py runserver
+  388  deactivate
+  389  cd ..
+  390  cd Phones_Shop/
+  391  . .env/bin/activate
+  392  python manage.py runserver
+  393  cd PycharmProjects/Phones_Shop/
+  394  . .env/bin/activate
+  395  python manage.py runserver
+  396  deactivate
+  397  git add *
+  398  git commit -m "new design"
+  399  git push
+  400  git push -f
+  401  . .env/bin/activate
+  402  python manage.py runserver
+  403  pypython manage.py createsuperuser
+  404  python manage.py createsuperuser
+  405  python manage.py runserver
+  406  deactivate
+  407  git add *
+  408  git commit -m "some admin work"
+  409  git push
+  410  . .env/bin/activate
+  411  python manage.py runserver
+  412  deactivate
+  413  git add *
+  414  git commit -m "admin work finished"
+  415  git push
+  416  cd PycharmProjects/
+  417  mkdir SecretSanta
+  418  cd SecretSanta/
+  419  virtualenv -p python3 .env
+  420  . .env/bin/activate
+  421  pip install django
+  422  django-admin startproject SecretSanta
+  423  ls
+  424  django-admin startapp santa_app
+  425  python manage.py makemigrations
+  426  python manage.py migrate
+  427  python manage.py runserver
+  428  python manage.py createsuperuser
+  429  python manage.py runserver
+  430  python manage.py makemigrations
+  431  python manage.py migrate
+  432  python manage.py runserver
+  433  python manage.py createsuperuser
+  434  python manage.py runserver
+  435  python manage.py makemigrations
+  436  python manage.py migrate
+  437  python manage.py runserver
+  438  python manage.py createsuperuser
+  439  python manage.py makemigrations
+  440  python manage.py migrate
+  441  python manage.py createsuperuser
+  442  python manage.py makemigrations
+  443  python manage.py migrate
+  444  python manage.py createsuperuser
+  445  python manage.py runserver
+  446  python manage.py makemigrations
+  447  python manage.py migrate
+  448  python manage.py makemigrations
+  449  python manage.py migrate
+  450  python manage.py makemigrations
+  451  python manage.py migrate
+  452  python manage.py makemigrations
+  453  python manage.py migrate
+  454  python manage.py makemigrations
+  455  python manage.py migrate
+  456  python manage.py makemigrations
+  457  python manage.py migrate
+  458  python manage.py makemigrations
+  459  python manage.py migrate
+  460  python manage.py makemigrations
+  461  python manage.py migrate
+  462  python manage.py makemigrations
+  463  python manage.py migrate
+  464  python manage.py makemigrations
+  465  python manage.py migrate
+  466  python manage.py createsuperuser
+  467  python manage.py runserver
+  468  cd PycharmProjects/SecretSanta/
+  469  . .env/bin/activate
+  470  python manage.py makemigrations
+  471  python manage.py migrate
+  472  python manage.py runserver
+  473  pip freeze > requirements.txt
+  474  python manage.py runserver
+  475  deactivate
+  476  cd ..
+  477  cd SecretSanta2
+  478  . .env/bin/activate
+  479  python manage.py runserver
+  480  sudo fuser -k 8000/tcp
+  481  python manage.py runserver
+  482  ggit init
+  483  git init
+  484  git add *
+  485  git commit -m "initial commit"
+  486  git remote add origin https://github.com/Lovelykira/SecretSanta.git
+  487  git push -u origin master
+  488  python manage.py runserver
+  489  ipconfig
+  490  ifconfig
+  491  ifconfig -a
+  492  ip addr show
+  493  ifconfig -a
+  494  ip addr show
+  495  python manage.py runserver
+  496  pip install gunicorn
+  497  gunicorn 
+  498  gunicorn SecretSanta
+  499  gunicorn SecretSanta:santa_app
+  500  gunicorn SecretSanta.wsgi
+  501  ls
+  502  sudo fuser -k 8000/tcp
+  503  cd PycharmProjects/Phones_Shop/
+  504  . .env/bin/activate
+  505  python manage.py runserver
+  506  deactivate
+  507  cd ..
+  508  mkdir Phones_Shop_web
+  509  cd Phones_Shop_web
+  510  virtualenv -p python3 .env
+  511  . .env/bin/activate
+  512  pip install django
+  513  django startproj
+  514  django-admin startproj PhonesShop
+  515  django-admin startproject PhonesShop
+  516  django-admin startapp main
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd kira
+  521  ды
+  522  ls
+  523  cd PycharmProjects/
+  524  mkdir PizzaShop
+  525  cd PizzaShop/
+  526  virtualenv -p python3 .env
+  527  . .env/bin/activate
+  528  pip install django
+  529  django-admin startproject PizzaShop_proj
+  530  django-admin startapp pizzashop_app
+  531  ls
+  532  cd pizzashop_app
+  533  python manage.py makemigrations
+  534  ls
+  535  cd ..
+  536  ls
+  537  python manage.py makemigrations
+  538  pip install Pillow
+  539  python manage.py makemigrations
+  540  python manage.py migrate
+  541  python manage.py runserver
+  542  python manage.py createsuperuser
+  543  python manage.py runserver
+  544  ls
+  545  cd ..
+  546  ls
+  547  python manage.py runserver
+  548  pip freeze > requirements.txt
+  549  python manage.py runserver
+  550  deactivate
+  551  git init
+  552  git add *
+  553  git commit -m "first commit"
+  554  git remote add origin https://github.com/Lovelykira/PizzaShop.git
+  555  git push -u origin master
+  556  git add *
+  557  git status
+  558  git add gitignore
+  559  git add .gitignore
+  560  git commit -m "aecond commit"
+  561  git push -u origin master -f
+  562  git add/rm PizzaShop.zip
+  563  git add *
+  564  git status
+  565  git commit -m "try"
+  566  git rm --cached PizzaShop.zip
+  567  git commit
+  568  git commit -m "try"
+  569  git status
+  570  git push
+  571  cd PycharmProjects/
+  572  mkdir LogSaver
+  573  cd LogSaver
+  574  virtualenv -p python3 .env
+  575  . .env/bin/activate
+  576  pip install django
+  577  django-admin startproject LogSaver
+  578  django-admin startapp main
+  579  python manage.py runserver
+  580  python manage.py migrate
+  581  python manage.py runserver
+  582  python manage.py createsuperuser
+  583  python manage.py runserver
+  584  python manage.py makemigrations
+  585  python manage.py migrate
+  586  python manage.py runserver
+  587  python manage.py makemigrations
+  588  python manage.py migrate
+  589  python manage.py runserver
+  590  pip freeze >requirements.txt
+  591  deactivate
+  592  git init
+  593  git add *
+  594  git add .gitignore
+  595  git commit -m "first commit"
+  596  git remote add origin https://github.com/Lovelykira/Logger_homework.git
+  597  git push -u origin master
+  598  cd PycharmProjects/LogSaver/
+  599  . .env/bin/activate
+  600  python logsender.py
+  601  pip install requests
+  602  python logsender.py
+  603  cookies = dict(sessionid=resp.cookies['sessionid'])
+  604  python logsender.py
+  605  python logsender.py > cookies
+  606  python logsender.py 
+  607  python logsender.py >cookies
+  608  python logsender.py 
+  609  pyton manage.py runserver
+  610  python manage.py runserver
+  611  /deactivate
+  612  deactivate
+  613  cd PycharmProjects/SecretSanta2
+  614  . .env/bin/activate
+  615  python manage.py runserver
+  616  cd PycharmProjects/
+  617  cd PandoraLog_vkapi/
+  618  virtualenv -p python3 .env
+  619  . .env/bin/activate
+  620  pip install vk
+  621  ./main.py
+  622  python3 main.py
+  623  cd PycharmProjects/SecretSanta2
+  624  python manage.py runserver
+  625  . .env/bin/activate
+  626  python manage.py runserver
+  627  ./manage.py makemessages -l ru
+  628  ./manage.py makemessages -l en
+  629  ./manage.py compilemessages
+  630  python manage.py runserver
+  631  ./manage.py compilemessages
+  632  python manage.py runserver
+  633  ./manage.py makemessages -l en
+  634  python manage.py runserver
+  635  deactivate
+  636  cd ..
+  637  cd Phones_Shop/
+  638  . .env/bin/activate
+  639  ./manage.py runserver
+  640  ./manage.py makemessages -l en
+  641  ./manage.py makemessages -l ru
+  642  ./manage.py compilemessages
+  643  ./manage.py runserver
+  644  ./manage.py makemessages -l en
+  645  ./manage.py makemessages -l ru
+  646  ./manage.py runserver
+  647  ./manage.py compilemessages
+  648  ./manage.py runserver
+  649  ./manage.py compilemessages
+  650  ./manage.py runserver
+  651  ./manage.py compilemessages
+  652  ./manage.py runserver
+  653  ./manage.py makemessages -l ru
+  654  ./manage.py makemessages -l en
+  655  ./manage.py compilemessages
+  656  ./manage.py runserver
+  657  ./manage.py makemessages -l en
+  658  ./manage.py makemessages -l ru
+  659  ./manage.py compilemessages
+  660  ./manage.py runserver
+  661  ./manage.py makemessages -l en
+  662  ./manage.py makemessages -l ru
+  663  ./manage.py compilemessages
+  664  ./manage.py runserver
+  665  ./manage.py makemessages -l en
+  666  ./manage.py makemessages -l ru
+  667  ./manage.py makemessages -l en
+  668  ./manage.py makemessages -l ru
+  669  ./manage.py makemessages -l en
+  670  ./manage.py compilemessages
+  671  ./manage.py runserver
+  672  ./manage.py makemessages -l en
+  673  ./manage.py makemessages -l ru
+  674  ./manage.py compilemessages
+  675  ./manage.py runserver
+  676  ./manage.py compilemessages
+  677  ./manage.py runserver
+  678  ./manage.py makemessages -l ru
+  679  ./manage.py makemessages -l en
+  680  ./manage.py compilemessages
+  681  ./manage.py runserver
+  682  ./manage.py makemessages -l ru
+  683  ./manage.py makemessages -l en
+  684  ./manage.py compilemessages
+  685  ./manage.py runserver
+  686  ./manage.py compilemessages
+  687  ./manage.py runserver
+  688  ./manage.py compilemessages
+  689  ./manage.py runserver
+  690  ./manage.py compilemessages
+  691  ./manage.py runserver
+  692  ./manage.py makemessages -l en
+  693  ./manage.py makemessages -l ru
+  694  ./manage.py compilemessages
+  695  ./manage.py runserver
+  696  ./manage.py compilemessages
+  697  ./manage.py runserver
+  698  ./manage.py makemessages -l ru
+  699  ./manage.py makemessages -l en
+  700  ./manage.py compilemessages
+  701  ./manage.py runserver
+  702  deactivate
+  703  git add *
+  704  git commit -m "translations"
+  705  git push -f
+  706  cd PycharmProjects/
+  707  mkdir Microservices
+  708  cd Microservices/
+  709  cd ..
+  710  mkdir TornadoChat_exemple
+  711  cd TornadoChat_exemple/
+  712  virtualenv -p python3 .env
+  713  . .env/bin/activate
+  714  pip install tornado
+  715  ls
+  716  python chatdemo.py
+  717  deactivate
+  718  cd ..
+  719  ls
+  720  cd Microservices/
+  721  virtualenv -p python3 .env
+  722  . .env/bin/activate
+  723  pip install falcon
+  724  pip install django
+  725  pip install mysqldb
+  726  sudo apt-get install python-mysqldb
+  727  django-admin startproject LogicServer
+  728  cd DBServer
+  729  django-admin startapp main
+  730  cd ..
+  731  ls
+  732  django-admin startproject LogicServer
+  733  cd LogicServer/
+  734  django-admin startapp main
+  735  pip install requests
+  736  ls
+  737  manage.py runserver
+  738  python manage.py runserver
+  739  htop
+  740  sudo apt install htop
+  741  htop
+  742  python manage.py runserver
+  743  sudo service mysql start
+  744  systemctl status mysql.service
+  745  sudo service mysql stop
+  746  sudo rm /var/lib/mysql/ib_logfile0
+  747  sudo rm /var/lib/mysql/ib_logfile1
+  748  gedit /etc/mysql/my.cnf
+  749  Job for mysql.service failed because the control process exited with error code. See "systemctl status mysql.service" and "journalctl -xe" for details.
+  750  sudo gedit /etc/mysql/my.cnf
+  751  sudo service mysql restart
+  752  python
+  753  sudo apt-get purge mysql-*
+  754  sudo apt-get purge mysql*
+  755  sudo apt-get purge mysql
+  756  sudo apt-get install mysql-server
+  757  sudo apt-get purge mysql-*
+  758  sudo apt-get update
+  759  sudo apt-get install mysql-server-5.6
+  760  wget mysql-apt-config_0.6.0-1_all.deb
+  761  sudo apt-get install mysql-server > log.txt
+  762  sudo apt-get purge mysql-*
+  763  sudo apt-get upgrade
+  764  sudo apt-get update
+  765  sudo apt-get upgrade
+  766  sudo apt-get install -f
+  767  sudo dpkg --configure -a
+  768  sudo apt-get install mysql-server
+  769  journalctl -xe
+  770  apt --varsion
+  771  apt --version
+  772  sudo apt-get update
+  773  apt-get -V -s upgrade
+  774  sudo dpkg -i mysql-apt-config_5.7.13-0_all.deb
+  775  history > history.txt

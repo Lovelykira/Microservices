@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+The Program to Find All Roots of a Quadratic Equation <br>
+<p style="color:red">{{error}} </p>
+<form action="/" method="POST" >
+    {% csrf_token %}
+    <input type="text" size="40" name="a" placeholder="Input a"> <br>
+    <input type="text" size="40" name="b" placeholder="Input b"> <br>
+    <input type="text" size="40" name="c" placeholder="Input c"> <br>
+    <input type="submit" class="btn btn-primary" value="Go"/>
+</form>
+{% for string in text %}
+{{string}}<br>
+{%endfor%}
+</body>
+</html>
